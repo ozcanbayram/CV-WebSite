@@ -249,6 +249,10 @@ img{
 .about__social-icon:hover{
     color: var(--first-color);
 }
+#forlink{
+    margin-left: 10px;
+    border: 1px solid var(--text-color);
+}
 
 /* ===== SKILLS =====*/
 .skills__container{
@@ -348,6 +352,11 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
+/* .forMail {
+    background-color: var(--first-color);
+    color: var(--white-color);
+    margin-left: 10px;
+} */
 
 /* ===== FOOTER=====*/
 .footer{
