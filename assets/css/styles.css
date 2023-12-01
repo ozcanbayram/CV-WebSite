@@ -158,6 +158,13 @@ img{
     font-size: 1.5rem;
     cursor: pointer;
 }
+#download_cv{
+    background-color: var(--white-color);
+    color: var(--first-color);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: small;
+}
 
 /*=== Show menu ===*/
 .show{
