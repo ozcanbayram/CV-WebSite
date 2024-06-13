@@ -1,72 +1,77 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Özcan Bayram</title>
-        <!-- FAVICON -->
-        <link rel="shortcut icon" href="assets/img/favicon6.png" type="image/x-icon">
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Özcan Bayram</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon6.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">Özcan Bayram</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a
+                            href="https://drive.google.com/file/d/1yVfA2st459yVs1ndu6A-8pWDs9BGN4Rl/view?usp=sharing"
+                            target="_blank" class="nav__link download" id="download_cv">Download CV</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>HE</span><br>LLO!</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
+                </div>
+
+                <img src="assets/img/profil.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/eski.png" alt="">
+                </div>
+
                 <div>
-                    <a href="index.html" class="nav__logo">Özcan Bayram</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        <li class="nav__item"><a href="https://drive.google.com/file/d/1yVfA2st459yVs1ndu6A-8pWDs9BGN4Rl/view?usp=sharing" target="_blank" class="nav__link download" id="download_cv">Download CV</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>HE</span><br>LLO!</h1>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>
-
-                    <img src="assets/img/profil.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/eski.png" alt="">
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">I'm Özcan Bayram</h2>
-                        <span class="about__profession">Mobile and Web developer</span>
-                        <p class="about__text">
-                           <!-- <b>[English]</b><br>
+                    <h2 class="about__subtitle">I'm Özcan Bayram</h2>
+                    <span class="about__profession">Mobile and Web developer</span>
+                    <p class="about__text">
+                        <!-- <b>[English]</b><br>
                             Hello, I am Ozcan Bayram. I am 21 years old and I am a computer programming student at Bandırma Onyedi Eylül University. I'm studying to be a web designer and mobile developer. <br>
                              While learning software since my high school years, I improved myself in the basics of programming with the C# language, learned basic Web development using Html, Css, Php, and learned the basics of Android by developing mobile applications with Java. Now I am developing projects by learning the necessary languages for mobile and web development.<br> I am currently working mainly on the Kotlin language. I develop projects individually and as a team.<br> At the end of this university semester, my team and I are working with excitement to create an impressive project. I can't wait to add this website project we worked on using Html, Css, Js, Php and Sql to my portfolio. <br> I continue my work passionately to share my social media project called 'Gezle', which I am developing individually using Kotlin for Android stores.
                              I love my job and try to learn new things every day. <br> You can review my projects on my GitHub profile, support me and reach me through the links below for more information about me.
@@ -75,188 +80,206 @@
                             Merhaba, ben Ozcan Bayram. 20 yaşındayım ve Bandırma Onyedi Eylül Üniveristesi'nde bilgisayar programcılığı öğrencisiyim. Web tasarımcı ve mobil geliştirici olmak için çalışıyorum. <br>
                             Lise yıllarımdan beri yazılımı öğrenirken, C# dili ile kendimi programlamanın temellerinde geliştirdim, Html, Css, Php kullanarak temel Web geliştirmeyi, Java ile mobil uygulamalar geliştirerek Android'in temellerini öğrendim. Şimdi mobil ve web geliştirmek için gerekli dilleri öğrenerek projeler geliştiriyorum.<br> Şu an ağırlıklı olarak Kotlin dili üzerinde çalışıyorum. Bireysel ve ekip olarak projeler geliştiriyorum. <br> Bu üniversite döneminin sonunda ekibimle beraber etkileyici bir proje çıkarmak için heyecanla çalışıyoruz. Html, Css, Js, Php ve Sql kullanarak üzerinde çalıştığımız bu website projemizi portföyüme eklemek için sabırsızlanıyorum. <br> Android mağazaları için Kotlin kullanarak bireysel olarak  geliştirmekte olduğum, 'Gezle' isimli sosyal medya projemi de paylaşmak için tutkuyla çalışmalarıma devam ediyorum. 
                             İşimi seviyorum ve her gün yeni şeyler öğrenmeye çalışıyorum. <br> GitHub profilimdeki projelerimi inceleyebilir, beni destekleyebilir ve hakkımda daha fazla bilgi için bana aşağıdaki bağlantılardan ulaşabilirsiniz.  -->
-							
-							
-							✨ Hello, I am Özcan, i am 21 years old.
-I'm working on becoming full-stack Mobile and Web developer.
-I love my job and try to learn new things every day.
-You can review my projects,
-support me and contact me via the links below to get more information about me.
 
-                        
-                        </p>
+                        ✨ Hello, I am Özcan, i am 21 years old.
+                        I'm working on becoming full-stack Mobile and Web developer.
+                        I love my job and try to learn new things every day.
+                        You can review my projects,
+                        support me and contact me via the links below to get more information about me.
 
-                        <div class="about__social">
-                            <a href="https://www.linkedin.com/in/ozcan-bayram/" target="_blank" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/ozcanbayram" target="_blank" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="https://www.instagram.com/ozcan0/" target="_blank" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
-                        </div>
+                    </p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/ozcan-bayram/" target="_blank"
+                            class="about__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/ozcanbayram" target="_blank" class="about__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/ozcan0/" target="_blank" class="about__social-icon"><i
+                                class='bx bxl-instagram'></i></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Development</h3>
-                        <span class="skills__name">Flutter</span>
-                        <span class="skills__name">Dart</span>
-                        <span class="skills__name">Kotlin</span>
-                        <span class="skills__name">Angular</span>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
-                        <span class="skills__name">C#</span>
-                       
-                        <!-- <span class="skills__name">Html</span>
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Flutter</span>
+                    <span class="skills__name">Dart</span>
+                    <span class="skills__name">Kotlin</span>
+                    <span class="skills__name">Angular</span>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">Css</span>
+                    <span class="skills__name">C#</span>
+
+                    <!-- <span class="skills__name">Html</span>
                         <span class="skills__name">Vue</span> -->
-                        
-                        <h3 class="skills__subtitle">Design</h3>
-                        <span class="skills__name">Figma</span>
-						<span class="skills__name">Canva</span>
-						<span class="skills__name">Adobe Express</span>
-                        <span class="skills__name">Premier Pro</span>
-                        <span class="skills__name">CapCut</span>
-                       <!-- <span class="skills__name">Adobe XD</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Figma</span>
+                    <span class="skills__name">Canva</span>
+                    <span class="skills__name">Adobe Express</span>
+                    <span class="skills__name">Premier Pro</span>
+                    <span class="skills__name">CapCut</span>
+                    <!-- <span class="skills__name">Adobe XD</span>
                         <span class="skills__name">Photoshop</span> -->
-                    </div>
+                </div>
 
-                    <div class="skills__img">
-                        <img src="assets/img/resim.jpg" alt="">
+                <div class="skills__img">
+                    <img src="assets/img/resim.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio__container bd-grid">
+                <!-- <div class="portfolio__img">
+                    <img src="assets/img/c-sharp.jpg" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://www.udemy.com/certificate/UC-c9f1bb41-1444-4f53-8300-357469156655/"
+                            target="_blank" class="portfolio__link-name">View certificate</a>
                     </div>
                 </div>
-            </section>
+                <div class="portfolio__img">
+                    <img src="assets/img/git.png" alt="">
 
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <img src="assets/img/c-sharp.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://www.udemy.com/certificate/UC-c9f1bb41-1444-4f53-8300-357469156655/" target="_blank" class="portfolio__link-name">View certificate</a>
-                        </div>
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/OzcanBayram/assets/117665864/3f691065-a1c2-4b0b-8726-aa6871ca190d"
+                            target="_blank" class="portfolio__link-name">View certificate</a>
                     </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/git.png" alt="">
+                </div> -->
+                <div class="portfolio__img">
+                    <img src="assets/img/pmcertificate.png" alt="">
 
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/OzcanBayram/assets/117665864/3f691065-a1c2-4b0b-8726-aa6871ca190d" target="_blank" class="portfolio__link-name">View certificate</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/pmcertificate.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://www.coursera.org/account/accomplishments/verify/J5FL7GTY98HD" target="_blank" class="portfolio__link-name">View certificate</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/instagram-clone.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Instagram-Clone-java" target="_blank" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/kenny.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Catch-The-Kenny-Game" target="_blank" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/trawel-boook.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Java-Travel-Book" target="_blank" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/hospital.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Hospital-appointment-system-with-SQL-and-C--" target="_blank" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-
-                    <!-- Add portfolio items -->
-                    <div class="portfolio__img">
-                        <img src="assets/img/store-dashboard.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Store-Dashboard-with-Entity-Framework" target="_blank" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/personal.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Personnel-Registration-Program" target="_blank" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/gezle.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram/Gezle" target="_blank" class="portfolio__link-name">
-                                View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/github.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ozcanbayram?tab=repositories" target="_blank" class="portfolio__link-name">Go to all projects</a>
-                        </div>
-                    </div>
+                    <div class="portfolio__link">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/2VBCTH2HS64X" target="_blank"
+                            class="portfolio__link-name">View certificate</a>
                     </div>
                 </div>
-            </section>
+                <div class="portfolio__img">
+                    <img src="assets/img/instagram-clone.png" alt="">
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">ozzcanbayram@gmail.com</span>  
-                        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ozzcanbayram@gmail.com" target="_blank" class="skills__name" id="forlink">
-                            Send me Mail
-                        </a>
-                        
-                        
-                        <h3 class="contact__subtitle">Linkedin</h3>
-                        <span class="contact__text">Özcan Bayram</span>
-                        <a href="https://www.linkedin.com/in/ozcan-bayram/" target="_blank" class="skills__name" id="forlink">
-                            Go to Profile
-                        </a>
-
-                        <h3 class="contact__subtitle">GitHub</h3>
-                        <span class="contact__text">View projects</span>
-                        <a href="https://github.com/ozcanbayram" target="_blank" class="skills__name" id="forlink">
-                            Go to Profile
-                        </a>
-                        
-						<h3 class="contact__subtitle">UNIVERSITY</h3>
-                        <span class="contact__text">Bandırma Onyedi Eylül University</span>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">Ankara/Gazi Üniversity/Technopark</span>
-						
-						
-                        <h3 class="contact__subtitle">CURRENT JOB</h3>
-                        <span class="contact__text">MIA Technology <br> Google Game and App Academy</span>
-						
-                        
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Instagram-Clone-java" target="_blank"
+                            class="portfolio__link-name">View details</a>
                     </div>
+                </div>
+                <!-- <div class="portfolio__img">
+                    <img src="assets/img/kenny.png" alt="">
 
-                    <!--
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Catch-The-Kenny-Game" target="_blank"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div> -->
+                <div class="portfolio__img">
+                    <img src="assets/img/trawel-boook.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Java-Travel-Book" target="_blank"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/hospital.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Hospital-appointment-system-with-SQL-and-C--"
+                            target="_blank" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+
+                <!-- Add portfolio items -->
+                <div class="portfolio__img">
+                    <img src="assets/img/store-dashboard.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Store-Dashboard-with-Entity-Framework" target="_blank"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/personal.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Personnel-Registration-Program" target="_blank"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/gezle.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/Gezle" target="_blank" class="portfolio__link-name">
+                            View details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="assets/img/notelook.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram/NoteLook-AI?tab=readme-ov-file#notelook-ai"
+                            target="_blank" class="portfolio__link-name">
+                            View details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="assets/img/github.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ozcanbayram?tab=repositories" target="_blank"
+                            class="portfolio__link-name">Go to all projects</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">ozzcanbayram@gmail.com</span>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ozzcanbayram@gmail.com"
+                        target="_blank" class="skills__name" id="forlink">
+                        Send me Mail
+                    </a>
+
+
+                    <h3 class="contact__subtitle">Linkedin</h3>
+                    <span class="contact__text">Özcan Bayram</span>
+                    <a href="https://www.linkedin.com/in/ozcan-bayram/" target="_blank" class="skills__name"
+                        id="forlink">
+                        Go to Profile
+                    </a>
+
+                    <h3 class="contact__subtitle">GitHub</h3>
+                    <span class="contact__text">View projects</span>
+                    <a href="https://github.com/ozcanbayram" target="_blank" class="skills__name" id="forlink">
+                        Go to Profile
+                    </a>
+
+                    <h3 class="contact__subtitle">UNIVERSITY</h3>
+                    <span class="contact__text">Bandırma Onyedi Eylül University</span>
+
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Ankara/Gazi Üniversity/Technopark</span>
+                </div>
+
+                <!--
 
                     <form action="" class="contact__form">
                         <div class="contact__inputs">
@@ -270,46 +293,80 @@ support me and contact me via the links below to get more information about me.
                     </form>
 
                     -->
-                    
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">Özcan Bayram</h2>
-                    <p class="footer__text">I'm Özcan Bayram and this is my personal website ©</p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
-                        <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#Contact" class="footer__link">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">SOCIAL</h2>
-                    <a href="https://github.com/ozcanbayram" target="_blank" class="footer__social"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/ozcan-bayram/" target="_blank" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://www.instagram.com/ozcan0/" target="_blank" class="footer__social"><i class='bx bxl-instagram' ></i></a>
-                    <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a> -->
-                </div>
-
 
             </div>
-        </footer>
+        </section>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== Experience =====-->
+        <section class="contact section" id="experience">
+            <h2 class="section-title">Experience</h2>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+
+                    <h3 class="contact__subtitle">MIA Teknoloji Intern Software Developer </h3>
+                    <span class="contact__text"> Mobile & Web Developer
+                        (Flutter, Dart &
+                        Angular) <br>
+                        Ankara Gazi University Technopark 02/2024 - 06/2024 </span>
+
+                    <h3 class="contact__subtitle">Google Game and Application Academy Intern </h3>
+                    <span class="contact__text"> Mobile Developer
+                        (Flutter & Dart) <br>Remote 12/2023 - 07/2024 </span>
+
+                </div>
+
+                <!--<form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button">
+                    </form>-->
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Özcan Bayram</h2>
+                <p class="footer__text">I'm Özcan Bayram and this is my personal website ©</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                    <li><a href="#experience" class="footer__link">Experience</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">SOCIAL</h2>
+                <a href="https://github.com/ozcanbayram" target="_blank" class="footer__social"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ozcan-bayram/" target="_blank" class="footer__social"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/ozcan0/" target="_blank" class="footer__social"><i
+                        class='bx bxl-instagram'></i></a>
+                <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a> -->
+            </div>
+
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
